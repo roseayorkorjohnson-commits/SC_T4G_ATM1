@@ -19,7 +19,6 @@ let enteredPin = prompt("Welcome to Nova Bank ATM. Please enter your 4-digit pin
    //console.log(typeof (userAmount)) // number
    if (userBalance >= userAmount){
       let newuserBalance = userBalance - userAmount;
-
       receiptTitle.innerText ="TRANSACTION SUCCESSFUL";
       receiptText.innerText =`Dispensing cash... You withdrew ${userAmount}.
       Your remaining balance is now ${userBalance - userAmount}`;
